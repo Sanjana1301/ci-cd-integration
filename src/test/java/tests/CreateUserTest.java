@@ -20,7 +20,7 @@ public class CreateUserTest {
     @Feature("User API")
     @Story("Create user")
     @Description("Verify user can be created successfully")
-    @Test(description = "Create a user - 200 Success")
+    @Test(description = "Create a user - 200 Success - Sanjana")
     public void createUser() {
         User user = new User();
         user.setUsername(RandomUtils.getRandomAlphabeticString());
